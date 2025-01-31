@@ -21,8 +21,14 @@ git status
 git status -s 
 
 
-### Comenzi de crearea a commitului
+### Comenzi de adaugae a fisierelor in STAGED (inainte de creare a comitului)  
 git add filename
 git add .
 git add filname.*
 git add filename 1 filename 2 filename 3
+
+### Comenzi de creare a commitului
+git commit -m "Acesta este un mesaj descriptiv al comitului"
+
+### Comanda de adauga + commit  (!!! Fisierele trebuie sa fi fost incluse intr-un commit inainte)
+git commit -am "Acesta este un mesaj descriptiv al commitului"
